@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/criar-conta.css">
+</head>
+<body>
+    <h1 class="h1-color-family">Criar Conta</h1>
+    <form>
+        <fieldset id="dados-pessoais">
+            <legend>Dados pessoais</legend>
+
+            <label>
+                Nome
+                <input type="text" required/>
+            </label>
+
+            <label>
+                Sobrenome
+                <input type="text" required/>
+            </label>
+
+            <label>
+                Data de Nascimento
+                <input type="date" required>
+            </label>
+
+            <label>
+                Email
+                <input type="email" required/>
+            </label>
+
+            <label>
+                Telefone p/ contato
+                <input type="tel"/>
+            </label>
+            
+        </fieldset>
+        <fieldset id="endereco">
+            <legend>Endereço</legend>
+
+            <label>
+                Logradouro
+                <input type="text" required/>
+            </label>
+
+            <label>
+                Número
+                <input type="number" required/>
+            </label>
+
+            <label>
+                Complemento
+                <input type="text" />
+            </label>
+
+        </fieldset>
+        <input type="submit" value="Cadastrar" class="btn-color btn-hover">
+    </form>
+    <a href="index.html" id="voltar">Voltar</a>
+</body>
+</html>
